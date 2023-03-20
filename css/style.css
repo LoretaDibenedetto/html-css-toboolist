@@ -54,6 +54,7 @@ body{
 }
 summary{
    margin: 15px 0  ;
+   
 }
 
 h4{
@@ -77,5 +78,9 @@ li{
 }
 
 .item-checked{
-   
+   list-style-image: url(/img/tick_check_mark_icon_153886.svg);
+
+}
+.item-unchecked{
+    list-style-image: url(/img/circle_x_icon_251221.svg);
 }
