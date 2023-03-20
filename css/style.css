@@ -3,3 +3,18 @@
     margin: 0;
     padding: 0;
 }
+
+.bg-white{
+    background-color: white;
+}
+.bg-lightgray{
+    background-color: rgb(198, 199, 201);
+}
+.logo{
+   padding: 10px;
+}
+
+.container{
+    width: 50%;
+    margin:0 auto;
+}
