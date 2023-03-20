@@ -36,7 +36,7 @@ body{
  margin-left: 40px;
  margin-top: 10px;
  height:25px;
- 
+ font-size: 11px;
  
 }
 .custom-button-white{
@@ -46,7 +46,7 @@ body{
  border-radius: 5px;
  cursor: pointer;
  height:25px;
- 
+ font-size: 11px;
 }
 
 .m-left{
@@ -68,15 +68,34 @@ li{
     list-style-type: none;
     padding: 5px 0 ;
 }
-.editorial{
+span{
     
     padding: 2px;
     border-radius: 6px;
     font-size: 10px;
-    background-color: rgb(64, 60, 255);
+    
     color:white;
 }
-
+/*span background-color*/
+.s-bg-blue{
+background-color: #403cff;
+}
+.s-bg-violet{
+background-color: #551b7c;
+}
+.s-bg-green{
+    background-color: #488f48;
+}
+.s-bg-orange{
+    background-color: #ffa500;
+}
+.s-bg-pink{
+    background-color: #c05063;
+}
+.s-bg-lightgray{
+    background-color: #c4c36e;
+}
+/*icon checked/unchecked*/
 .item-checked{
    list-style-image: url(/img/tick_check_mark_icon_153886.svg);
 
